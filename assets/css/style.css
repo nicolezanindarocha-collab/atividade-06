@@ -48,3 +48,49 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+@media (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .left {
+        background-color: #90ee90;
+        width: 100%;
+    }
+    main {
+        background-color: blueviolet;
+    }
+    .right {
+        background-color: violet;
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+        .container {
+        width: 100%;
+    }
+    .content {
+        flex-direction: column;
+    }
+    .left {
+        background-color: #743b73;
+        width: 100%;
+        
+    }
+    main {
+        background-color: rgb(99, 162, 131);
+        width: 100%;
+    }
+    .right {
+        background-color: rgb(142, 106, 79);
+        width: 100%;
+        
+    }
+}
